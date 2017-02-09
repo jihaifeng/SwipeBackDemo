@@ -133,7 +133,7 @@ bintray {
   configurations = ['archives']
   pkg {
     repo = mavenName // 上传到maven库。
-    name = "AndoridUtils" // 发布到Bintray上的项目名字，这里的名字不是compile 'com.yanzhenjie:andserver:1.0.1'中的andserver。
+    name = pojName // 发布到Bintray上的项目名字，这里的名字不是compile 'com.yanzhenjie:andserver:1.0.1'中的andserver。
     userOrg = orgId // Bintray的组织ID
     websiteUrl = siteUrl
     vcsUrl = gitUrl
